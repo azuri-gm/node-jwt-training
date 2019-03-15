@@ -1,0 +1,26 @@
+{
+  "name": "nodejscourse",
+  "version": "1.0.0",
+  "description": "Solution for NodeJS course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd server && nodemon app.js",
+    "test": "cd server && mocha"
+  },
+  "author": "Eduardo Gaytan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.9",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8",
+    "sinon": "^7.1.1"
+  }
+}
